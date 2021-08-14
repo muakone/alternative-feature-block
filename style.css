@@ -47,13 +47,13 @@ header {
 }
 .community {
     display: grid;
-    grid-template-columns: 30em 30em;
+    grid-template-columns: 30em 1fr;
     grid-gap: 3em;
     margin: 4rem 3rem;
 }
 .image-hurdle {
-    width: 140%;
-    margin-left: 1em;
+    width: 100%;
+    margin-left: .5em;
 }
 .header-text {
     max-width: 30em;
@@ -125,7 +125,7 @@ header {
     border-radius: 1em;
     position: absolute;
     z-index: 4;
-    left: 25em;
+    left: 21em;
     margin-top: 5em;
     padding: 1rem;
     font-family: 'Open Sans', sans-serif;
