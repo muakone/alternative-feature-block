@@ -52,7 +52,8 @@ header {
     margin: 4rem 3rem;
 }
 .image-hurdle {
-    width: 45em;
+    width: 42em;
+    margin-left: 2em;
 }
 .header-text {
     max-width: 30em;
