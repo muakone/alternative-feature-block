@@ -255,14 +255,23 @@ ul > li:hover {
     .Hurdle-top {
         height: 60em;
         background-image: url(./images/bg-hero-mobile.svg);
+        padding: 0;
     }
     header {
         display: flex;
         justify-content: space-between;
+        margin: 0 1rem 0 -1.3rem;
+    }
+    .header-logo {
+        width: 7em;
     }
     .button-free {
-        width: 9em;
+        width: 7em;
+        height: 1.6rem;
         margin: 0;
+        margin-top: .4rem;
+        padding: .4rem;
+        text-align: center;
     }
     .community {
         display: flex;
@@ -271,18 +280,48 @@ ul > li:hover {
         align-items: center;
     }
     .header-text {
-        max-width: 30em;
+        max-width: 22em;
         margin: 0;
+    }
+    .header-text > h1 {
+        margin: 0 auto;
     }
     .button-header {
         width: 18em;
         height: 2.5rem;
         margin: 3rem auto;
         align-items: center;
-
     }
     .image-hurdle {
-        width: 100%;
+        width: 19.5em;
+    }
+    .middle {
+        width: 20.5em;
+        height: 32em;
+        flex-direction: column-reverse;
+    }
+    .middle-img {
+        width: 18em;
+    }
+    .inner-text {
+        margin-left: 0;
+    }
+    .middle-left-img {
+        width: 18em;
+        margin: 0;
+    }
+    .inner-right-text {
+        max-width: 17em;
+        margin: 0 ;
+        margin-bottom: 3rem;
+    }
+    .inner-right-text > h2 {
+        max-width: 19em;
+        white-space: nowrap;
+    }
+    .community-box {
+        width: 25em;
+        white-space: nowrap;
     }
 }
 
