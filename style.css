@@ -40,6 +40,7 @@ header {
     margin-top: -3.7em;
     margin-right: 2rem;
     box-shadow: 1px 5px 20px -10px var(--Grayish-Blue);
+    transition: ease-in-out 2s;
 }
 .button-free > a {
     color: var(--Very-Dark-Cyan);
@@ -51,6 +52,7 @@ header {
     grid-gap: 3em;
     margin: 4rem 3rem;
 }
+
 .image-hurdle {
     width: 100%;
     object-fit: contain;
@@ -76,6 +78,7 @@ header {
     padding: .7rem;
     text-align: center;
     box-shadow: 1px 5px 20px -10px var(--pink);
+    transition: ease-in-out 2s;
 }
 .button-header > a {
     text-decoration: none;
@@ -139,6 +142,7 @@ header {
     background-color: var(--pink);
     margin: 2rem auto;
     box-shadow: 1px 5px 20px -8px var(--Grayish-Blue);
+    transition: ease-in-out 2s;
 }
 .button-community > a {
     text-decoration: none;
