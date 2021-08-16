@@ -53,6 +53,7 @@ header {
 }
 .image-hurdle {
     width: 100%;
+    object-fit: contain;
     margin-left: .5em;
 }
 .header-text {
@@ -84,7 +85,7 @@ header {
     margin-top: 5rem;
 }
 .middle {
-    width: 65em;
+    width: 90%;
     height: 25em;
     align-items: center;
     margin: 2rem auto;
@@ -132,7 +133,7 @@ header {
     font-weight: 700;
 }
 .button-community {
-    width: 16em;
+    width: 50%;
     padding: 1.4rem;
     border-radius: 2rem;
     background-color: var(--pink);
@@ -296,7 +297,7 @@ ul > li:hover {
         width: 19.5em;
     }
     .middle {
-        width: 20.5em;
+        width: 18.5em;
         height: 32em;
         flex-direction: column-reverse;
     }
@@ -320,9 +321,41 @@ ul > li:hover {
         white-space: nowrap;
     }
     .community-box {
-        width: 25em;
+        width: 88%;
+        font-size: small;
+        height: 12em;
         white-space: nowrap;
+        box-sizing: content-box;
+        left: 0;
+        margin: 8rem .3rem 0 .3rem;
     }
+    .button-community {
+        width: 70%;
+    }
+    .footer {
+        margin-left: 2rem;
+        text-align: left;
+    }
+    .infocenter {
+        flex-direction: column;
+    }
+    .Ourinfo {
+        flex-direction: column;
+        gap: 0;
+    }
+    .second-info {
+        margin-top: -1rem;
+    }
+    .icons {
+        margin: 0 auto;
+        align-items: center;
+    }
+    .copyright {
+        margin: 1rem auto;
+        float: none;
+        text-align: center;
+    }
+    
 }
 
 
