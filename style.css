@@ -48,7 +48,7 @@ header {
 }
 .community {
     display: grid;
-    grid-template-columns: 30em 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-gap: 3em;
     margin: 4rem 3rem;
 }
@@ -60,7 +60,7 @@ header {
 }
 .header-text {
     max-width: 30em;
-    margin-top: 7em;
+    margin-top: 5em;
     line-height: 2rem;
 }
 .header-text > h1 {
@@ -129,7 +129,7 @@ header {
     border-radius: 1em;
     position: absolute;
     z-index: 4;
-    left: 21em;
+    left: 25%;
     margin-top: 5em;
     padding: 1rem;
     font-family: 'Open Sans', sans-serif;
@@ -171,7 +171,7 @@ footer p {
 }
 .infocenter {
     display: flex;
-    column-gap: 50px;
+    column-gap: 3.125em;
     margin-left: -2em;
 }
 .location, .phone, .mail {
@@ -202,7 +202,6 @@ ul > li {
 .icons {
     font-size: 2em;
     float: right;
-    margin-left: 4em;
     margin-top: 18px;
 }
 
@@ -230,7 +229,7 @@ ul > li {
     margin-right: 5em;
 }
 
-/* Active Part */
+/* Active Part of the page */
 .button-free:hover {
     opacity: .8;
     cursor: pointer;
@@ -250,7 +249,21 @@ ul > li:hover {
     border: solid var(--pink) 1px;
 }
 
-/* Responsive part */
+
+/* Responsive part of the */
+@media(max-width:1060px) {
+    .community-box {
+        left: 10%;
+    }
+    .footer {
+        margin-left: 5rem;
+    }
+    .icons {
+        display: flex;
+        margin-right: 1rem;
+    }
+}
+
 @media(max-width:768px) {
     body {
         margin: 0 auto;
@@ -258,7 +271,7 @@ ul > li:hover {
         align-items: center;
     }
     .Hurdle-top {
-        height: 60em;
+        height: 50em;
         background-image: url(./images/bg-hero-mobile.svg);
         padding: 0;
     }
@@ -359,7 +372,8 @@ ul > li:hover {
         float: none;
         text-align: center;
     }
-    
 }
+
+
 
 
