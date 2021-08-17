@@ -252,6 +252,9 @@ ul > li:hover {
 
 /* Responsive part of the */
 @media(max-width:1060px) {
+    .image-hurdle {
+        margin-top: 3em;
+    }
     .community-box {
         left: 10%;
     }
